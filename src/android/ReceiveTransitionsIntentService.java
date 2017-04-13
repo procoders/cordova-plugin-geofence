@@ -88,6 +88,6 @@ public class ReceiveTransitionsIntentService extends IntentService {
                 broadcastIntent.putExtra("error", error);
             }
         }
-        sendBroadcast(broadcastIntent);
+        //sendBroadcast(broadcastIntent);
     }
 }
