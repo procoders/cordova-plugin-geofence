@@ -112,10 +112,10 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>${EXECUTABLE_NAME} Would Like to Use Your Current Location Even In Background for notify you about nearby companies.</string>
+            <string>${EXECUTABLE_NAME} Would like to use your current location even in background to notify you about nearby companies.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>${EXECUTABLE_NAME} Would Like to Use Your Current Location When In Use for notify you about nearby companies.</string>
+            <string>${EXECUTABLE_NAME} Would like to use your current location when in use to notify you about nearby companies.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
