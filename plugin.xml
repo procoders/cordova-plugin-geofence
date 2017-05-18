@@ -25,6 +25,7 @@
 
     <!-- android -->
     <platform name="android">
+        <source-file src="src/android/libs/custom_notification.xml" target-dir="res/layout/"/>
         <source-file src="src/android/AbstractGoogleServiceCommand.java" target-dir="src/com/cowbell/cordova/geofence" />
         <source-file src="src/android/AddGeofenceCommand.java" target-dir="src/com/cowbell/cordova/geofence" />
         <source-file src="src/android/AssetUtil.java" target-dir="src/com/cowbell/cordova/geofence" />
